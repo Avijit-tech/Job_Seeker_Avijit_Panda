@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(6, 3, 35);
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    
+}
+
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.job-listing {
+    display: flex;
+    background-color: #1E2124;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.job-details {
+    flex-grow: 1;
+}
+
+.job-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-salary {
+    margin-bottom: 10px;
+    color: #bfbfbf;
+}
+
+.job-location {
+    color: #bfbfbf;
+}
+
+.job-details a {
+    background-color: #5372F0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.job-details a:hover {
+    background-color: #1E2124;
+}
+#logo{
+    color:  rgb(38, 245, 2);;
+}
+.navbar{
+    background-color:#171632;
+    height: 80px;
+    width: 100%;
+}
